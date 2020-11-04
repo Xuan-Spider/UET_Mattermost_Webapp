@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SearchableChannelList should match init snapshot 1`] = `
+<div
+  className="filtered-user-list"
+>
+  <div
+    className="filter-row filter-row--full"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <QuickInput
+        className="form-control filter-textbox"
+        delayInputUpdate={false}
+        id="searchChannelsTextbox"
+        inputComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "LocalizedInput",
+            "render": [Function],
+          }
+        }
+        onInput={[Function]}
+        placeholder={
+          Object {
+            "defaultMessage": "Search channels",
+            "id": "filtered_channels_list.search",
+          }
+        }
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="more-modal__list"
+    role="application"
+  >
+    <div
+      id="moreChannelsList"
+    >
+      <LoadingScreen
+        position="relative"
+        style={
+          Object {
+            "marginTop": "50%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="filter-controls"
+  />
+</div>
+`;
